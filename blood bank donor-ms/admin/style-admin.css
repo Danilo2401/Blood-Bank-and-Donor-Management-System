@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500&display=swap');
+
+body{
+    background-color: #e1e6ea;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root{
+    --main: #f40b0b;
+    --second: #FFF7F3;
+    --third:#0f0b0b;
+    --hoverColor:#710000;
+    --background-header:#BEA6A0;
+}
+
+.display-1{
+    color: var(--third);
+    margin: 30px 0;
+}
+
+.col-9{
+    margin: 50px 0;
+    border: 2px solid var(--third);
+    border-radius: 10px;
+    min-height: 200px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.col-9 label{
+    color: var(--third);
+    font-weight: 500;
+}
+
+.col-9 input{
+    border: 2px solid var(--third);
+}
+
+.fa-solid{
+    font-size: 50px;
+    margin: 20px 0;
+    color: var(--third);
+}
+
+.btn-admin{
+    background-color: #008FD6;
+}
+
+.btn-admin:hover{
+    background-color: #008FD6;
+    outline: none;
+    border: 1px solid #008FD6;
+}
+
+.navbar-admin{
+    background-color: #008FD6;
+}
+
+.navbar-admin .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--second);
+    padding: 10px 0;
+}
+
+.navbar-admin h2{
+    font-size: 38px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-admin a{
+    text-decoration: none;
+    color: var(--second);
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.container.table-container{
+    margin: 100px auto;
+}
+
+.form-admin{
+    display: flex;
+}
+
+.container.table-container{
+    margin: 40px auto;
+}

@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --main: #f40b0b;
+    --second: #FFF7F3;
+    --third:#0f0b0b;
+    --hoverColor:#710000;
+    --background-header:#BEA6A0;
+}
+
+.navbar{
+    background-color: var(--main);
+    font-size: 20px;
+    margin: 0;
+    padding: 5px;
+}
+
+.navbar-brand{
+    color: var(--second);
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link{
+    color: var(--second);
+}
+
+.navbar-toggler{
+    color: var(--second);
+    border: none;
+    font-weight: 500;
+}
+
+.navbar-text a{
+    color: var(--second);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nav-link:hover{
+    color: var(--hoverColor);
+}
+
+.navbar-text a:hover{
+    color: var(--hoverColor);
+}
+
+.card-title{
+    background-color: var(--background-header);
+    color: var(--main);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card{
+    margin-right: 20px;
+}
+
+.aboutus{
+    background-color: var(--main);
+    padding: 40px 0;
+}
+
+.aboutus .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-text{
+    color: var(--second);
+}
+
+.about-text{
+    margin-left: 100px;
+}
+
+.about-text h3{
+    color: var(--second);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.about-text p{
+    margin-top: 30px;
+    color: var(--second);
+}
+
+.heading-donor h1,p{
+    color: var(--third);
+}
+
+label{
+    color: var(--third);
+}
